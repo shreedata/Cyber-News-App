@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "CNA",
+    "slug": "cna",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "jsEngine": "hermes",
+    "ios": {
+      "supportsTablet": true,
+      "jsEngine": "hermes"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "android": {
+      "jsEngine": "hermes"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "extra": {
+      "EXPO_PUBLIC_SUPABASE_URL": "https://hdeccbvllnksdcxhjtia.supabase.co",
+      "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhkZWNjYnZsbG5rc2RjeGhqdGlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mzg2ODE0NTYsImV4cCI6MjA1NDI1NzQ1Nn0.j8yuhzzOA20-5gakqgQUT9_bucuhGDfgz-OAsUjbQDg"
+    }
+  }
+}
